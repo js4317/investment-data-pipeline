@@ -1,0 +1,26 @@
+database/*.db
+database/*.db-wal
+database/*.db-shm
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+.DS_Store
+/data/
+Investment Console.app
+logs/
+*.log
+backtests/snapshots/
+backtests/performance/
+backtests/calibration_snapshots/
+
+# ── 공개 저장소 정리 (2026-11-18) ──
+# 개인 보유·현금 내역 (이미 추적 중이면 git rm --cached 필요)
+positions.json
+cash.json
+# 검증 실행 산출물: 원 응답(KRX·DART 데이터 재배포 문제)·대용량
+/_verification_*/
+/_evidence_*/
+# 로컬 실행 로그
+morning_run.log
+.zshrc

@@ -1,0 +1,12 @@
+# Python 3.10+ (개발: 3.11). 시험은 네트워크·API 키 없이 실행된다.
+pandas>=2.0
+numpy>=1.26
+requests>=2.31
+tenacity>=8.2
+python-dotenv>=1.0
+scipy>=1.11
+beautifulsoup4>=4.12
+packaging>=23
+pykrx==1.2.8          # 현행(콘솔) 경로. patch_pykrx.py가 이 버전 기준으로 작성됨
+streamlit>=1.30       # 콘솔 화면(app.py, pages/)
+pytest>=8
