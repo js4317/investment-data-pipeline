@@ -1,5 +1,7 @@
 # Investment Console — KRX·DART 데이터의 원천 추적과 재검증 파이프라인
 
+[![tests](https://github.com/js4317/investment-data-pipeline/actions/workflows/tests.yml/badge.svg)](https://github.com/js4317/investment-data-pipeline/actions/workflows/tests.yml)
+
 KRX·DART 원천 데이터를 수집해 가치·품질 점수를 계산하고, **"이 신호가 언제, 어떤 원 데이터로 만들어졌는가"를 끝까지 추적·재검증**할 수 있게 만든 개인 프로젝트입니다.
 
 처음 목표는 종목 스크리너였지만, 검증 과정에서 **데이터를 믿을 수 없으면 어떤 전략 결과도 의미가 없다**는 것을 확인했습니다. 그래서 프로젝트의 중심을 신뢰할 수 있는 데이터 파이프라인으로 옮겼습니다.
